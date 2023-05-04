@@ -6,7 +6,7 @@
 
 :large_orange_diamond:  Kevin Funes  
 
-:large_orange_diamond:  Alejandro Maugouber
+:large_orange_diamond:  Alejandro - Maugouber
 
 :large_orange_diamond:  Bautista maza
 
