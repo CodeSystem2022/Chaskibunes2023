@@ -19,6 +19,7 @@ public class Persona {
         System.out.println("Ejecución del constructor");
     }
 
+    //Se colo un get y no un set, ya que no queremos vovler a setera el ID
     public int getIdPersona() {
         return this.idPersona;
     }
