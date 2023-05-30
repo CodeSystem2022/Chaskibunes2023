@@ -13,6 +13,7 @@ public class Empleado {
         return "Nombre: "+this.nombre+", sueldo: "+this.sueldo;
     }
 
+    //Getters and Setters
     public String getNombre(){
         return nombre;
     }
