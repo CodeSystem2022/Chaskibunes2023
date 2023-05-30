@@ -1,5 +1,6 @@
 package test;
 
+//Se importan los paquetes para su posterior uso
 import paquete1.Clase1;
 import paquete2.Clase3;
 
