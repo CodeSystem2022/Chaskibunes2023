@@ -14,6 +14,7 @@ class Clase2 extends Clase1 {
         this.metodoDefault();
     }
 
+    //Metodo Default
     void metodoDefault(){
         System.out.println("Método Default");
     }
