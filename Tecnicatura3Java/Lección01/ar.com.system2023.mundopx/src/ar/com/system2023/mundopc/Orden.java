@@ -20,7 +20,7 @@ public class Orden {
   public void agregarComputadora(Computadora computadora){
     if(this.contadorComputadoras < Orden.MAX_COMPUTADORAS){
         this.computadora[this.contadorComputadoras++] = computadora;
-    } else{
+    } else{ //Si se sepuera el numero de computadoras
         System.out.println("Has superado el limite: "+Orden.MAX_COMPUTADORAS);
     }
   }

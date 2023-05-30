@@ -1,4 +1,3 @@
-
 package ar.com.system2023.mundopc;
 
 public class Raton extends DispositivoEntrada{

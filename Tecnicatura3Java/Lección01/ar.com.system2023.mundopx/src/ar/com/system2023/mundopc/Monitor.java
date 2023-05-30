@@ -32,6 +32,8 @@ public class Monitor {
     public int getldMonitor(){
         return this.idMonitor;
     }
+
+    //Se coloca un override para incar marca tamaño y ID
     @Override
     public String toString(){
         return "Monitor{" + "idMonitor= " + idMonitor + ", marca=" + ", tamanio=" + "}";

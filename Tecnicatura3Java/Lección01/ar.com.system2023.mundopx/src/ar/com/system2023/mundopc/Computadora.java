@@ -24,6 +24,7 @@ public class Computadora {
         this.raton = raton;
     }
 
+    //Colocamos los getters and setters
     public int GetIdComputadora(int getIdComputadora) {
         return IdComputadora;
     }
