@@ -12,7 +12,7 @@ public class TestForEach {
         Persona personas[] = {new Persona("Juan"), new Persona("Carla"), new Persona("Beatriz")};
 
         for (Persona persona : personas) {
-            System.out.println("Persona= " + persona);
+            System.out.println("Persona= " + persona); //Muestra cada perosna de la lista
         }
     }
 }
