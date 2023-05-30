@@ -1,3 +1,4 @@
+//Trabajo Particulas
 window.onload = function () {
   var canvasEl = document.querySelector(".fireworks");
   var ctx = canvasEl.getContext("2d");
