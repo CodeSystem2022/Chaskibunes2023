@@ -3,7 +3,7 @@ class ManejoArchivos:
         self.nombre = nombre
 
     def __enter__(self):
-        print('Obtenemos el recurso'.center(50, '_'))
+        print('Obtenemos el recurso'.center(50, '_')) # Para saber si se ejecuta
         self.nombre = open(self.nombre, 'r', encoding='utf8') #Encapsulamos el código del método
         return self.nombre
     
