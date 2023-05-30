@@ -28,35 +28,43 @@ public class Computadora {
     public int GetIdComputadora(int getIdComputadora) {
         return IdComputadora;
     }
-
+    
+    //Get de Nombre
     public String getNombre() {
         return nombre;
     }
 
+    //Set de Nombre
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    //Get de Monitor
     public Monitor getMonitor() {
         return monitor;
     }
 
+    //Set de Monitor
     public void setMonitor(Monitor monitor) {
         this.monitor = monitor;
     }
 
+    //Get de Teclado
     public Teclado getTeclado() {
         return teclado;
     }
 
+    //Set de Teclado
     public void setTeclado(Teclado teclado) {
         this.teclado = teclado;
     }
 
+    //Get de Raton
     public Raton getRaton() {
         return raton;
     }
 
+    //Set de Raton
     public void setRaton(Raton raton) {
         this.raton = raton;
     }
