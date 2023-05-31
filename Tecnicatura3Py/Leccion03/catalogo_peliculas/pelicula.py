@@ -11,4 +11,3 @@ class Pelicula:
     @nombre.setter
     def nombre(self, nombre):
         self._nombre = nombre
-        
