@@ -1,6 +1,7 @@
 package domain;
 
 public class Empleado {
+    //atributos
     protected String nombre;
     protected double sueldo;
     
