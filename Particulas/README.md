@@ -5,6 +5,6 @@ Comienzo del proyecto Particulas</h1>
 <br><strong>
 Aquí esta el link del deploy: https://valentinalbornozz.github.io/Particulas/ el link es de uno de los integrantes del equipo ya que no podemos desplegar el deploy desde el repositorio del grupo ya que contamos con todas las clases de cada materia.</br></strong>
 <br><strong>
-Aquí esta el enlace a la wiki de JavaScript: https://github.com/CodeSystem2022/Chaskibunes2023---Tercer-Semestre.wiki.git</br></strong>
+Aquí esta el enlace a la wiki de JavaScript: https://github.com/CodeSystem2022/Chaskibunes2023---Tercer-Semestre/wiki/HTML</br></strong>
 <br><strong>
-Ahora por ultimo aquí esta la wiki del código HTML: https://github.com/CodeSystem2022/Chaskibunes2023---Tercer-Semestre.wiki.git</br></strong>
+Ahora por ultimo aquí esta la wiki del código HTML: https://github.com/CodeSystem2022/Chaskibunes2023---Tercer-Semestre/wiki/Wiki-JavaScript</br></strong>
