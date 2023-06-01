@@ -1,21 +1,41 @@
-09:45:43 PM:DEBUG [logger_bas.py:14] Mensaje a nivel debug
-09:45:43 PM:INFO [logger_bas.py:15] Mensaje a nivel info
-09:45:43 PM:WARNING [logger_bas.py:16] Mensaje a nivel error
-09:45:43 PM:ERROR [logger_bas.py:17] Mensaje a nivel error
-09:45:43 PM:CRITICAL [logger_bas.py:18] Mensaje a nivel critical
-09:39:32 PM:DEBUG [Persona.py:54] 
+12:24:53 AM:DEBUG [conexion.py:24] Conexi�n Exitosa: <connection object at 0x000001ADC05ACE10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:24:53 AM:DEBUG [conexion.py:37] Se abri� correctamente el cursor: <cursor object at 0x000001ADC05084A0; closed: 0>
+12:24:59 AM:DEBUG [logger_base.py:14] Mensaje a nivel debug
+12:24:59 AM:INFO [logger_base.py:15] Mensaje a nivel info
+12:24:59 AM:WARNING [logger_base.py:16] Mensaje a nivel error
+12:24:59 AM:ERROR [logger_base.py:17] Mensaje a nivel error
+12:24:59 AM:CRITICAL [logger_base.py:18] Mensaje a nivel critical
+12:25:05 AM:DEBUG [Persona.py:54] 
             Id Persona: 1,
             Nombre: Juan,
             Apellido: Perez,
             Email: jperez@mail.com
         
-09:39:32 PM:DEBUG [Persona.py:56] 
+12:25:05 AM:DEBUG [Persona.py:56] 
             Id Persona: None,
             Nombre: Jose,
             Apellido: Lepez,
             Email: ljose@mail.com
         
-09:39:32 PM:DEBUG [Persona.py:58] 
+12:25:05 AM:DEBUG [Persona.py:58] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+12:25:26 AM:DEBUG [Persona.py:54] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+12:25:26 AM:DEBUG [Persona.py:56] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: ljose@mail.com
+        
+12:25:26 AM:DEBUG [Persona.py:58] 
             Id Persona: 1,
             Nombre: None,
             Apellido: None,
