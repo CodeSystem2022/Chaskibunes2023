@@ -12,7 +12,7 @@ try:
                 ('Marcelo', 'Cuenca', 'cuencam@mail.com')
                 ) # Es una tupla de tuplas
             cursor.executemany(sentensia, valores) # De esta manera ejecutamos la sentencia
-            #conexion.commit() Esto se utiliza para guardar los cambios en la base de datos
+            # conexion.commit() Esto se utiliza para guardar los cambios en la base de datos
             registros_insertados = cursor.rowcount
             print(f'Los registros insertados son: {registros_insertados}')
 
