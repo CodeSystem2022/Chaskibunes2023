@@ -1,7 +1,6 @@
 import psycopg2 #Esto es para poder conectactos a postgre
 
-conexion = psycopg2.connect(user='postgres', password='admin', host='127.0.0.1', port='5432', database='test_bd'
-)
+conexion = psycopg2.connect(user='postgres', password='admin', host='127.0.0.1', port='5432', database='test_bd')
 try:
     #conexion.autocommit = False #esto directamente no deberia estar
     cursor = conexion.cursor();
@@ -16,4 +15,3 @@ except Exception as e:
     print(f'Ocurrio un error, se hizo un rollback: {e}')
 finally:
     conexion.close()
-
