@@ -44,7 +44,7 @@ class Conexion:
 
 
 if __name__ == '__main__':
-    Conexion.obtenerConexion()
-    Conexion.obtenerCursor()
+    Conexion.obtenerConexion()              
+    Conexion.obtenerCursor()                    
     
     

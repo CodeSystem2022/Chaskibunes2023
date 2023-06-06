@@ -1,18 +1,18 @@
-import logging as log
+import logging as logi
 
 #doc.python.org/3/howto/loggin.html
 # Llamamos una configuración básica
 
-log.basicConfig(level=log.DEBUG,
+logi.basicConfig(level=logi.DEBUG,
                 format='%(asctime)s:%(levelname)s [%(filename)s:%(lineno)s] %(message)s',
                 datefmt='%I:%M:%S %p',
                 handlers=[
-                    log.FileHandler('capa_datos.log'),
-                    log.StreamHandler()
+                    logi.FileHandler('capa_datos.log'),
+                    logi.StreamHandler()
                 ])
 if __name__ == '__main__' :
-    log.debug('Mensaje a nivel debug')
-    log.info('Mensaje a nivel info')
-    log.warning('Mensaje a nivel error')
-    log.error('Mensaje a nivel error')
-    log.critical('Mensaje a nivel critical')
+    logi.debug('Mensaje a nivel debug')                 
+    logi.info('Mensaje a nivel info')           
+    logi.warning('Mensaje a nivel error')           
+    logi.error('Mensaje a nivel error')             
+    logi.critical('Mensaje a nivel critical')           

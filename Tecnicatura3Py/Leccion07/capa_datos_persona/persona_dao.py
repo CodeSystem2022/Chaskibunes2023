@@ -46,10 +46,10 @@ class PersonaDAO:
     def insertar(cls, persona):
         with Conexion.obtenerConexion():
             with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email)
-                cursor.execute(cls._INSERTAR, valores)
-                log.debug(f'Persona Insertada: {persona}')
-                return cursor.rowcount
+                valores = (persona.nombre, persona.apellido, persona.email) 
+                cursor.execute(cls._INSERTAR, valores) 
+                log.debug(f'Persona Insertada: {persona}') 
+                return cursor.rowcount 
                 log.debug(f'Persona actualizada: {persona}')
                 return cursor.rowcount
             
@@ -65,19 +65,19 @@ class PersonaDAO:
                 
 if __name__ == "__main__":
     # Eliminar un registro
-    #persona1 = Persona(id_persona=8)
-    #personas_eliminadas = PersonaDAO.eliminar(persona1)
-    #log.debug(f'Personas eliminadas: {personas_eliminadas}')
-    
-    #Actualizar un registro
-    #persona1 = Persona(1, 'Juan José', 'Pena', 'jjpena@mail.com')
-    #personas_actualizadas = PersonaDAO.actualizar(persona1)
-    #log.debug(f'Personas actualizadas: {personas_actualizadas}')
-    
-    # Insertar un registro
-    #persona1 = Persona(nombre='Omero', apellido='Ramos', email='omeror@mail.com')
-    #personas_insertadas = PersonaDAO.insertar(persona1)
-    #log.debug(f'Personas Insertadas: {personas_insertadas}')
+    #persona1 = Persona(id_persona=8) 
+    #personas_eliminadas = PersonaDAO.eliminar(persona1) 
+    #log.debug(f'Personas eliminadas: {personas_eliminadas}') 
+    #-
+    #Actualizar un registro 
+    #persona1 = Persona(1, 'Juan José', 'Pena', 'jjpena@mail.com') 
+    #personas_actualizadas = PersonaDAO.actualizar(persona1) 
+    #log.debug(f'Personas actualizadas: {personas_actualizadas}') 
+    #-
+    # Insertar un registro 
+    #persona1 = Persona(nombre='Omero', apellido='Ramos', email='omeror@mail.com') 
+    #personas_insertadas = PersonaDAO.insertar(persona1) 
+    #log.debug(f'Personas Insertadas: {personas_insertadas}') 
 
     # Seleccionar objetos
     personas = PersonaDAO.seleccionar()
