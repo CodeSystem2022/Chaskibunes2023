@@ -9,6 +9,7 @@ def index(request):
     now = datetime.now()
     return render(request, 'index.html')
 
+
 def agregar_producto(request):
     if request.method == 'POST':
         nombre = request.POST['nombre']
@@ -30,11 +31,13 @@ def agregar_producto(request):
 
     return render(request, 'lista_productos.html')
 
+
 def buscar_producto(request):
     if request.method == 'GET':
         nombre = request.GET.get('nombre')
         products = Product.objects.filter(nombre__icontains=nombre)
         return render(request, 'lista_productos.html', {'products': products})
+
 
 def eliminar_producto(request):
     if request.method == 'POST':
@@ -50,6 +53,7 @@ def eliminar_producto(request):
 
         return redirect('python_app:lista_productos')
 
+
 def lista_productos(request):
     products = Product.objects.all()
-    return render(request, 'lista_productos.html', {'products': products})
+    return render(request, 'lista_productos.html', {'products': products})
