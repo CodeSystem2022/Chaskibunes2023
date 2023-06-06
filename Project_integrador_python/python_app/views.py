@@ -53,3 +53,4 @@ def eliminar_producto(request):
 def lista_productos(request):
     products = Product.objects.all()
     return render(request, 'lista_productos.html', {'products': products})
+
