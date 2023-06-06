@@ -1,9 +1,9 @@
 from django.urls import path
 from . import views
 
-app_name = 'python_app'
+app_name = 'python_app' # Nombre
 
-urlpatterns = [
+urlpatterns = [ # Funcion para mapear todos los url de la app
     path('', views.index, name='index'),
     path('agregar_producto/', views.agregar_producto, name='agregar_producto'),
     path('buscar_producto/', views.buscar_producto, name='buscar_producto'),
