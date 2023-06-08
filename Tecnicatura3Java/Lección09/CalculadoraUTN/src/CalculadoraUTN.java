@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class CalculadoraUTN {
@@ -46,6 +47,8 @@ public class CalculadoraUTN {
         System.out.print("Digite el valor para el operando 2: ");
         var operando2 = Double.parseDouble(entrada.nextLine());
         Double resultado;
+
+        //Usamos un 'switch' para seleccionar la operacion indicada por el usaurio
         switch (operacion) {
 
             case 1 -> { // Suma
@@ -65,6 +68,9 @@ public class CalculadoraUTN {
                 System.out.println("Resultado de la división: " + resultado);
             }
             default -> System.out.println("Opción erronea: " + operacion);
+
         } // Fin Switch
+
     } // Fin método ejecutar
+
 } // Fin Clase
