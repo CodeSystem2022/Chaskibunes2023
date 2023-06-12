@@ -20,11 +20,11 @@ class Prodcuto{
         return this._precio;
     }
 
-    setNombre(){
+    setNombre(nombre){
         this._nombre = nombre;
     }
 
-    setPrecio(){
+    setPrecio(precio){
         this._precio = precio;
     }
 
