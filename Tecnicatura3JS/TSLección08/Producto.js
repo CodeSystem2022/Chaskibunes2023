@@ -1,35 +1,31 @@
-class Prodcuto{
-
-    static contadorProcutos = 0;
-
-    constructor(nombre,precio){
-        this._idProducto = ++Prodcuto.contadorProcutos;
-        this._nombre = nombre;
-        this._precio = precio;
+class Producto {
+    constructor(idProducto, nombre, precio) {
+        this.idProducto = idProducto;
+        this.nombre = nombre;
+        this.precio = precio;
     }
 
-    getIdProducto(){
-        return this._idProducto;
+    getIdProducto() {
+        return this.idProducto;
     }
 
-    getNombre(){
-        return this._nombre;
+    getNombre() {
+        return this.nombre;
     }
 
-    getPrecio(){
-        return this._precio;
+    setNombre(nombre) {
+        this.nombre = nombre;
     }
 
-    setNombre(nombre){
-        this._nombre = nombre;
+    getPrecio() {
+        return this.precio;
     }
 
-    setPrecio(precio){
-        this._precio = precio;
+    setPrecio(precio) {
+        this.precio = precio;
     }
 
-    toString(){
-        return `${this._idProducto}: ${this._nombre} $${this._precio}`
+    toString() {
+        return `${this.nombre} - $${this.precio}`;
     }
-
 }
