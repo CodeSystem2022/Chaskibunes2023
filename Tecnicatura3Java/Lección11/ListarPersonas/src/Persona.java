@@ -7,6 +7,7 @@ public class Persona {
 
     // Constructor vacio
     public Persona() {
+        //Caumenta de uno en uno el "ID" de cada persona nueva, osea cada vez que se llama
         this.id = ++Persona.numeroPersonas;
     }
 
@@ -17,6 +18,8 @@ public class Persona {
         this.tel = tel;
         this.email = email;
     }
+
+    //Getters and Setters excepto del "ID"
 
     public int getId(){
         return id;
@@ -51,6 +54,8 @@ public class Persona {
         "tel=' " + tel + '\'' +
         '}';
     }
+
+    //Main de prueba
     public static void main(String[] args) {
         Persona persona1 = new Persona("Juan Perez", "261707001", "jperez@gmail.com");
         System.out.println(persona1);

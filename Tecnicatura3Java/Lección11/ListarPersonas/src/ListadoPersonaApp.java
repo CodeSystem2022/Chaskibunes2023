@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -43,24 +44,32 @@ public class ListadoPersonaApp {
                 var tel = entrada.nextLine();
                 System.out.print("Digite el correo: ");
                 var email = entrada.nextLine();
-                //Creamos el objeto persona
+                //Creamos el objeto persona con sus nuevas variables
                 var persona = new Persona(nombre, tel, email);
-                //Agregamos la persona a la lista
+                //Agregamos la persona a la lista de personas
                 personas.add(persona);
+                //Indicamos cuantas personas hay en la lista
                 System.out.println("La lista tiene: "+personas.size()+" elementos");
             } //Fin caso 1
+
             case 2 ->{ //Listar a las personas
                 System.out.println("Listado de personas: ");
                 //Mejoras con lambda y el método de referencia
                 //personas.forEach((persona) -> System.out.println(persona));
                 personas.forEach(System.out::println);
             } //Fin caso 2
+
             case 3 -> { //Salir del ciclo
                 System.out.println("Hasta Pronto...");
+                //igualamos "salir" a "true" para poder salir de todo el cili deo programa
                 salir= true;
             } //Fin caso 3
+
+            //Caso por default
             default -> System.out.println("Opción incorrecta: "+ opcion);
         }// Fin del switch
+
+        //Retornamos salir hasta que este no sea igual a "true"
         return salir;
     } // Fin del método ejecutarOperación
 } //Fin de la cclase ListadoPersonaApp
