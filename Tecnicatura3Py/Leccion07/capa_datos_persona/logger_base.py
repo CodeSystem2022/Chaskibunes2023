@@ -11,6 +11,7 @@ log.basicConfig(level=log.DEBUG,
                     log.StreamHandler()
                 ])
 if __name__ == '__main__' :
+    //todos los niveles 
     log.debug('Mensaje a nivel debug')                 
     log.info('Mensaje a nivel info')           
     log.warning('Mensaje a nivel error')           
