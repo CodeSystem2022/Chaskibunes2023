@@ -6,6 +6,8 @@ class Producto {
         this._precio = precio;
     }
 
+    //Getters and Setters
+
     get idProducto() {
         return this._idProducto;
     }
