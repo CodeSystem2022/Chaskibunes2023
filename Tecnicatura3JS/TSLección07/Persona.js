@@ -9,6 +9,8 @@ class Persona{
         this._edad = edad;
     }
 
+    //Getters and Setters
+
     get idPersona(){
         return this._idPersona;
     }
