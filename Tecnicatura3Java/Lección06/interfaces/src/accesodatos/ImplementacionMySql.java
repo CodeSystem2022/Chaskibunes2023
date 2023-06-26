@@ -2,6 +2,8 @@ package accesodatos;
 
 public class ImplementacionMySql implements IAccesoDatos {
 
+    //Tarea memoria para estos metodos de Mysql
+    
     @Override
     public void insertar() {
        System.out.println("Insertar desde MySql");
