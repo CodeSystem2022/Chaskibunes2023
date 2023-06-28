@@ -8,8 +8,6 @@
 
 :large_orange_diamond:  Alejandro - Maugouber
 
-:large_orange_diamond:  Bautista maza
-
 :large_orange_diamond:  Maira Carballo
 
 :large_orange_diamond:  Valentin Albornoz
